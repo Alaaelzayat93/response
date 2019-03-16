@@ -145,8 +145,9 @@ text-align: center;
 
 @media(max-width: 768px){
 .offers .col-md-4{
-    
-        width: 33%;
+    margin-bottom: 20px;
+        width: 100%;
+        display: block;
 }
 }
 .offers .root{
