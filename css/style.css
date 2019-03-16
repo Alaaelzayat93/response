@@ -132,7 +132,7 @@ text-align: center;
 }
 /*offers*/
 .offers{
-    
+    width:100%;
     /*overflow:auto;*/
     /*width: 90%;*/
     /*margin-left: 10%;*/
@@ -145,9 +145,7 @@ text-align: center;
 
 @media(max-width: 768px){
 .offers .col-md-4{
-    margin-bottom: 20px;
-        width: 100%;
-        display: block;
+display: block !important;
 }
 }
 .offers .root{
@@ -166,20 +164,32 @@ padding: 40px;
 }
 .feet .root{
     background:rgba(0, 0, 0, 0.54)  url(../images/ser1.jpg);
-   
+}
+ @media(max-width: 768px) {
+.feet .root{
+    width: 32% !important;
+ } 
+}
     
 
-}
+
 .feet2 .root{
     background:rgba(0, 0, 0, 0.54)  url(../images/ser2.jpg);
-    
-   
+ }   
+  @media(max-width: 768px) {
+.feet2 .root{
+    width: 32% !important;
+ } 
+} 
 
-}
+
 .feet3 .root{
     background:rgba(0, 0, 0, 0.54)  url(../images/ser3.jpg);
-    
-    
+    }
+    @media(max-width: 768px) {
+.feet3 .root{
+    width: 32% !important;
+ } 
 }
 /*end offers*/
 /*start services*/
