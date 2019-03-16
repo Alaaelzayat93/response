@@ -57,6 +57,13 @@ body{
     color: #FF1756;
     border-bottom: 2px solid #fff;
 }
+.navbar-collapse{
+    background: #493b50;
+}
+.navbar-toggler-icon{
+    background: #fff;
+    color:#FF1756;
+}
 
 /*********header***********/
 /*home sections*/
