@@ -18,12 +18,15 @@ $('.nav-link').click(function(){
 $('.slider').each(function(){
  $(this).css('paddingTop',($(window).height()-$('.slider li').height())/2);
 });
-});
+
 
 
 /*owl*/
 $('.slider').bxSlider({
   pager:false
 });
+
+});
+
 
 

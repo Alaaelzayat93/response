@@ -10,6 +10,9 @@
     
 
 }
+html{
+    scroll-behavior: smooth;
+}
 
 
 .container{
@@ -20,7 +23,7 @@
 body{
     font-family: 'Roboto Slab', serif;
     height: 5000px;
-    overflow-x: hidden;
+    
 
 }
 .clearfix{
@@ -130,26 +133,29 @@ text-align: center;
 /*offers*/
 .offers{
     
-    overflow:auto;
-    width: 100%;
-    
-    padding: 50px;
+    /*overflow:auto;*/
+    /*width: 90%;*/
+    /*margin-left: 10%;*/
+    padding: 50px 0px;
     color: #fff;
+    
 
 
 }
-.offers .col-md-3{
 
-    margin-right: 10px;
-}
 @media(max-width: 768px){
-.offers .col-md-3{
-    margin-bottom: 20px;
+.offers .col-md-4{
+    
+        width: 33%;
 }
 }
 .offers .root{
-margin: auto;
+
 padding: 40px;
+ max-width: 100% !important;
+    background-size: cover !important;
+    background-blend-mode: overlay;
+    margin:10px;
 }
 .offers .root button{
     padding: 10px 20px;
@@ -157,28 +163,26 @@ padding: 40px;
     color: #fff;
     border: 0;
 }
-.feet{
+.feet .root{
     background:rgba(0, 0, 0, 0.54)  url(../images/ser1.jpg);
-    max-width: 100%;
-    background-size: cover;
-    background-blend-mode: overlay;
+   
     
 
 }
-.feet2{
+.feet2 .root{
     background:rgba(0, 0, 0, 0.54)  url(../images/ser2.jpg);
-    max-width: 100%;
-    background-size: cover;
-    overflow: hidden;
-    background-blend-mode: overlay;
+    
    
 
 }
-.feet3{
+.feet3 .root{
     background:rgba(0, 0, 0, 0.54)  url(../images/ser3.jpg);
-    max-width: 100%;
-    background-size: cover;
-    overflow: hidden;
-    background-blend-mode: overlay;
+    
     
 }
+/*end offers*/
+/*start services*/
+.our-services{
+    width: 100%;
+}
+/*end services*/
