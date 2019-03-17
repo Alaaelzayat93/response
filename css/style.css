@@ -15,10 +15,7 @@ html{
 }
 
 
-.container{
-    width:1200px;
-    margin: auto;
-}
+
 
 body{
     font-family: 'Roboto Slab', serif;
@@ -40,13 +37,20 @@ body{
 
 }
 .navbar{
-        height: 0;
-    padding: 0;
+     background-color: transparent !important;
+position: absolute;
+width: 100%;   
+
     z-index: 3;
 }
 .navbar .navbar-brand{
     color: #fff;
     font-size: 30px;
+}
+@media screen and(max-width:768px){
+    .navbar .navbar-brand{
+         font-size:24px;
+    }
 }
 .navbar-light .navbar-nav .nav-link{
     color: #fff;
@@ -173,10 +177,11 @@ padding: 40px;
 }
 .feet .root{
     background:rgba(0, 0, 0, 0.54)  url(../images/ser1.jpg);
+
 }
  @media(max-width: 768px) {
 .feet .root{
-    width: 32% !important;
+    
  } 
 }
     
@@ -187,7 +192,7 @@ padding: 40px;
  }   
   @media(max-width: 768px) {
 .feet2 .root{
-    width: 32% !important;
+    
  } 
 } 
 
@@ -197,12 +202,14 @@ padding: 40px;
     }
     @media(max-width: 768px) {
 .feet3 .root{
-    width: 32% !important;
- } 
+    }
 }
 /*end offers*/
 /*start services*/
 .our-services{
     width: 100%;
+}
+.our-services h2::after{
+content: "alaa"
 }
 /*end services*/

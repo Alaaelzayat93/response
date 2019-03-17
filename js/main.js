@@ -26,7 +26,7 @@ $('.slider').bxSlider({
   pager:false
 });
 
-
+/*
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -35,7 +35,7 @@ function scrollFunction() {
   } else {
     document.getElementByclass("navbar").style.top = "-50px";
   }
-}
+}*/
 
 });
 
