@@ -55,6 +55,9 @@ width: 100%;
 .navbar-light .navbar-nav .nav-link{
     color: #fff;
 }
+.nav-item dropdown{
+    color: #fff;
+}
 
 .navbar-light .navbar-nav .active .nav-link,
 .navbar-light .navbar-nav .nav-link:hover{
@@ -209,7 +212,112 @@ padding: 40px;
 .our-services{
     width: 100%;
 }
-.our-services h2::after{
-content: "alaa"
+/*.our-services h2::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 4%;
+    top: 50px;
+    left: 0;
+    border-bottom: 2px solid #ff1756;
+}*/
+.our-services .info-image img{
+max-width: 100%;
+}
+.our-services .info-content h2{
+    color: #ff1756;
+}
+.our-services .info-content .icons .about{
+    margin-bottom: 7%;
+}
+
+.our-services .info-content .icons i{
+    float: left;
+    width: 20%;
+    background: #ff1756;
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.our-services .info-content >p{
+    color:#827474;
+    padding:20px 0;
+}
+.our-services .info-content .icons .content{
+    
+    width: 70%;
+    margin-left: 100px;
+}
+.our-services .info-content .content h2{
+    font-size: 18px;
+}
+.our-services .info-content .content p{
+    color: #444;
+    display: block;
+    font-size: 70%;
 }
 /*end services*/
+/*start courses*/
+.courses{
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+}
+.courses h1{
+    color: #ff1756;
+    margin-bottom: 53px;
+}
+.courses .course{
+    margin-bottom: 20px;
+    
+
+}
+.courses .course .online{
+    margin-right: 10px;
+    background: #f7f7f7;
+    overflow: hidden;
+    
+}
+.courses .course img{
+width: 50%;
+float: left;
+transition: all .2s ease-in-out;
+display: block;
+overflow: hidden;
+border-radius: 20px;
+
+
+} 
+.courses .course img:hover{
+    transform: scale(1.1);
+}
+.courses .block-text {
+width: 50%;
+float: left;
+padding: 20px;
+display: flex;
+flex-direction: column;
+overflow: hidden;
+} 
+.courses .block-text:hover{
+    background: #ff1756;
+    color: #fff;
+}
+.courses .block-text h2{
+    font-size: 22px;
+    font-weight: bold;
+}
+.courses .block-text p{
+    color: #555;
+}
+.courses .block-text button#online{
+    background: #ff1756;
+    color: #fff;
+    outline: 0;
+    width: 76%;
+    height: 40px;
+    border-radius: 10px;
+}
