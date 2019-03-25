@@ -36,7 +36,35 @@ function scrollFunction() {
     document.getElementByclass("navbar").style.top = "-50px";
   }
 }*/
-
+/*slider*/
+ $(window).scroll(function(){
+var navbar = $('.navbar');
+if($(window).scrollTop() >= navbar.height()){
+if(!navbar.hasClass('scrolled')){
+navbar.removeClass('navbar-absolute').addClass('scrolled fixed-top');
+} 
+}else{
+navbar.removeClass('scrolled navbar-fixed-top');
+}
 });
+});
+/*carousel*/
+$('.owl-carousel').owlCarousel({
+    
+   
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+
 
 

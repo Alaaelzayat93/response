@@ -14,7 +14,12 @@ html{
     scroll-behavior: smooth;
 }
 
+.scrolled{
+	background-color: #ff1756ab !important;
+	color: #fff;
+	width: 100%;
 
+}
 
 
 body{
@@ -37,11 +42,14 @@ body{
 
 }
 .navbar{
-     background-color: transparent !important;
-position: absolute;
+     background-color: transparent;
+   
 width: 100%;   
 
     z-index: 3;
+}
+.navbar-absolute{
+  position: absolute;
 }
 .navbar .navbar-brand{
     color: #fff;
@@ -52,15 +60,15 @@ width: 100%;
          font-size:24px;
     }
 }
-.navbar-light .navbar-nav .nav-link{
+.navbar .navbar-nav .nav-link{
     color: #fff;
 }
 .nav-item dropdown{
     color: #fff;
 }
 
-.navbar-light .navbar-nav .active .nav-link,
-.navbar-light .navbar-nav .nav-link:hover{
+.navbar .navbar-nav .active .nav-link,
+.navbar .navbar-nav .nav-link:hover{
     color: #FF1756;
     border-bottom: 2px solid #fff;
 }
@@ -279,15 +287,29 @@ max-width: 100%;
     margin-right: 10px;
     background: #f7f7f7;
     overflow: hidden;
-    
+    border-radius: 0 0 20px 20px;
+}
+.courses .course .online:hover{
+background: #ff1756;
+    color: #fff;
+    transition:all 0.5s ease-in-out;
+}
+.courses .course .online:hover p{
+    color: #fff;
+}
+.courses .course .online:hover button#online{
+    background: #fff;
+    color: #ff1756;
+
 }
 .courses .course img{
+ border-radius: 0 0 20px 20px;
 width: 50%;
 float: left;
 transition: all .2s ease-in-out;
 display: block;
 overflow: hidden;
-border-radius: 20px;
+
 
 
 } 
@@ -302,10 +324,7 @@ display: flex;
 flex-direction: column;
 overflow: hidden;
 } 
-.courses .block-text:hover{
-    background: #ff1756;
-    color: #fff;
-}
+
 .courses .block-text h2{
     font-size: 22px;
     font-weight: bold;
@@ -320,4 +339,34 @@ overflow: hidden;
     width: 76%;
     height: 40px;
     border-radius: 10px;
+    font-weight: bold;
+}
+/*start plog*/
+.plog{
+    padding: 50px 0;
+
+}
+.plog h1{
+    color: #ff1756;
+    margin-bottom: 20px;
+}
+.plog .project{
+    background: #323232;
+    padding: 30px 0;
+    color: #fff;
+    height: 99%;
+    width: 100%;
+}
+.plog .project p{
+
+}
+.plog .project h2{
+    color: #fff;
+}
+.plog .project h2 span{
+    color: #ff1756;
+}
+.plog .card .btn{
+    background-color: #ff1756;
+    border-color: #ff1756;
 }
