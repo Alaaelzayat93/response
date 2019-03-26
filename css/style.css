@@ -10,6 +10,9 @@
     
 
 }
+.container{
+    overflow: hidden;
+}
 html{
     scroll-behavior: smooth;
 }
