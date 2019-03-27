@@ -47,6 +47,23 @@ body{
     z-index: 1;
 
 }
+/* The overlay effect - lays on top of the container and over the image */
+.overlay2 {
+  
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgb(255, 99, 141);/* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:1;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+
 .navbar{
      background-color: transparent;
    
@@ -385,6 +402,8 @@ overflow: hidden;
 }
 .team img{
     width: 100%;
+    position: relative;
+    display: block;
 }
 .team p#para{
         width: 54%;
