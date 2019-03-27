@@ -49,22 +49,32 @@ navbar.removeClass('scrolled navbar-fixed-top');
 });
 });
 /*carousel*/
-$('.owl-one').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:4
-        }
+$('.owl-carousel').owlCarousel({
+  loop: true,
+  margin: 10,
+  autoplay:true,
+  nav:true,
+  responsive: {
+    0: {
+      items: 1,
+      nav: true
+    },
+    600: {
+      items: 3,
+      nav: false
+    },
+    1000: {
+      items: 5,
+      nav: true,
+      loop: false
     }
+  }
 })
+$('.carousel').carousel({
+      interval: 2000
+    });
+$('.carousel-control.right').trigger('click');
+
 
 
 
