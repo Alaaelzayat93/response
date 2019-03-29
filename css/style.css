@@ -422,6 +422,10 @@ overflow: hidden;
         overflow: hidden;
 
 }
+.why-choose-us:hover img{
+    transform: rotate(90deg);
+    transition:all 1.5s ease-in-out;
+}
 .why-choose-us h2{
     color: #ff3067;
 }
@@ -483,15 +487,32 @@ color: #a3a4ac;
     
 
 }
-.ploggers .card img{
-    display: block;
+.ploggers .inner{
+    overflow: hidden;
+}
+.ploggers .inner img{
     
+    transition: all 1.5s ease-in-out;
     margin-bottom: 25px;
 }
-.ploggers .card:hover img{
-transform: scale(2);
-overflow: hidden;
+.ploggers .inner:hover img{
+transform: scale(1.5);
 
+
+}
+.ploggers .post-meta a{
+        color: #ff638d
+}
+.btn-primary{
+    background: #ff1756;
+    outline: 0;
+    border: 0;
+}
+.btn-primary:hover{
+    background: transparent;
+    color: #ff1756;
+    border-color: #ff1756;
+    transition: all 1.5s ease-in-out
 }
 .footer{
     background: url(../images/07.png);
