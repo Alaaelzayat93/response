@@ -372,12 +372,12 @@ overflow: hidden;
 .plog h1{
     color: #ff1756;
     margin-bottom: 20px;
+    display: flex;
 }
 .plog .project{
     background: #323232;
     padding: 30px 30px;
     color: #fff;
-    height: 99%;
     width: 100%;
 }
 .plog .project p{
