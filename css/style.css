@@ -410,3 +410,89 @@ overflow: hidden;
     margin: 20px auto;
     color: #6a5f5f;
 }
+/*why-choose-us*/
+.why-choose-us{
+    background: #f2f2f2;
+    padding: 40px 0;
+    height: 575px;
+}
+.why-choose-us img{
+    max-width: 100%;
+        height: 75%;
+        overflow: hidden;
+
+}
+.why-choose-us h2{
+    color: #ff3067;
+}
+.why-choose-us h2 span{
+    color: #000;
+}
+.why-choose-us p{
+   color: #323232;
+}
+.why-choose-us .choose{
+    background: #ffffff;
+    padding: 17px 17px 4px;
+    margin: 30px 0;
+    height: auto;
+
+}
+.why-choose-us .choose{
+    height: 80%;
+
+}
+.why-choose-us i{
+    width: 20%;
+    float: left;
+        font-size: 20px;
+    line-height: 64px;
+    text-align: center;
+    padding-right: 10px;
+    color: #ff1756;
+}
+.why-choose-us .main{
+    width: 80%;
+    float: left;
+}
+.why-choose-us .main h3{
+    font-size: 23px;
+}
+/*ploggers*/
+.ploggers{
+    
+    overflow: hidden;
+    background: #f2f2f2;
+    height: 657px;
+}
+.ploggers h2{
+    color: #fb5f89;
+}
+.ploggers p#block{
+    width: 80%;
+margin: auto;
+color: #a3a4ac;
+}
+.ploggers h2 span{
+    color: #000;
+}
+.ploggers .reef{
+    padding: 20px;
+    background: #fff;
+    overflow: hidden;
+    
+
+}
+.ploggers .card img{
+    display: block;
+    
+    margin-bottom: 25px;
+}
+.ploggers .card:hover img{
+transform: scale(2);
+overflow: hidden;
+
+}
+.footer{
+    background: url(../images/07.png);
+}
