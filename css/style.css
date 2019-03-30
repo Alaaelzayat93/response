@@ -414,7 +414,7 @@ overflow: hidden;
 .why-choose-us{
     background: #f2f2f2;
     padding: 40px 0;
-    height: 575px;
+    
 }
 .why-choose-us img{
     max-width: 100%;
@@ -467,7 +467,7 @@ overflow: hidden;
     
     overflow: hidden;
     background: #f2f2f2;
-    height: 657px;
+    
 }
 .ploggers h2{
     color: #fb5f89;
@@ -483,7 +483,7 @@ color: #a3a4ac;
 .ploggers .reef{
     padding: 20px;
     background: #fff;
-    overflow: hidden;
+    
     
 
 }
@@ -514,6 +514,51 @@ transform: scale(1.5);
     border-color: #ff1756;
     transition: all 1.5s ease-in-out
 }
+@media screen and(max-width:768px ){
+    .ploggers .reef{
+        width:100%;
+        display: block !important;
+    }
+    .ploggers p#block{
+      font-size: 20px  
+    }
+}
+/*help*/
+.help{
+    background: #ff1756;
+    color: #fff;
+    position: relative;
+}
+.help::before{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 0;
+    border-width: 15px 15px 15px 15px;
+    border-color: red green blue yellow;
+    border-style: solid;
+       
+    
+    border-color: #ff1756 transparent transparent transparent;
+    
+    top: 81px;
+    left: 50%;
+}
+
 .footer{
-    background: url(../images/07.png);
+    background: #383838  ;
+    padding-top: 50px 0 !important;
+    color: #fff;
+}
+
+.footer .contact{
+    min-height: 200px;
+    margin: 30px;
+}
+.footer .contact h3{
+        text-transform: uppercase;
+       
+}
+.footer .links{
+    margin: 30px;
 }
