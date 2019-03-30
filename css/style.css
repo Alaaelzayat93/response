@@ -528,6 +528,7 @@ transform: scale(1.5);
     background: #ff1756;
     color: #fff;
     position: relative;
+    text-align: center;
 }
 .help::before{
     position: absolute;
@@ -547,7 +548,7 @@ transform: scale(1.5);
 
 .footer{
     background: #383838  ;
-    padding-top: 50px 0 !important;
+    
     color: #fff;
 }
 
@@ -559,6 +560,48 @@ transform: scale(1.5);
         text-transform: uppercase;
        
 }
+.footer .contact .icons{
+    color: #fff;
+}
+.footer .contact .icons i{
+    background: #ff1756;
+    padding: 4px 6px;
+}
+
 .footer .links{
     margin: 30px;
+}
+.footer .plog2{
+    margin: 30px;
+}
+.footer .plog2 img{
+    width: 30%;
+    float:left;
+    height: 60px;
+    margin-right: 5%;
+    vertical-align: middle;
+}
+.footer .plog2 .content{
+    width: 64%;
+    float:left;
+
+}
+.footer .plog2 .content time{
+    font-size: 10px;
+}
+.footer .news{
+    padding: 28px;
+}
+.footer .news input{
+    background: #fff;
+    border: 0;
+    position: relative;
+    padding: 10px 2px;
+}
+.footer .news #btn1{
+    position: absolute;
+        padding: 11px 2px;
+    width: 12%;
+    background: #ff1756;
+    border: 0;
 }
