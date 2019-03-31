@@ -605,3 +605,8 @@ transform: scale(1.5);
     background: #ff1756;
     border: 0;
 }
+@media screen and(max-width: 567){
+    .footer .plog2 img{
+        width: 50%;
+    }
+}
