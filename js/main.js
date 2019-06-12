@@ -71,6 +71,8 @@ $('#plog-carousel').owlCarousel({
     }
   }
 })
+//wow 
+new WOW().init();
 
 
 

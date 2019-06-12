@@ -555,7 +555,7 @@ transform: scale(1.5);
 }
 .footer .contact .icons i{
     background: #ff1756;
-    padding: 4px 6px;
+    padding: 4px 4px;
 }
 
 .footer .links{
@@ -587,6 +587,7 @@ transform: scale(1.5);
     border: 0;
     position: relative;
     padding: 10px 2px;
+    width: 85%;
 }
 .footer .news #btn1{
     position: absolute;
@@ -598,5 +599,7 @@ transform: scale(1.5);
 @media screen and(max-width: 567){
     .footer .plog2 img{
         width: 50%;
+        float:none;
+        margin: 0;
     }
 }
