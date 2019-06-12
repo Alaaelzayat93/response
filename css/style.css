@@ -213,31 +213,20 @@ padding: 40px;
     background:rgba(0, 0, 0, 0.54)  url(../images/ser1.jpg);
 
 }
- @media(max-width: 768px) {
-.feet .root{
-    
- } 
-}
+
     
 
 
 .feet2 .root{
     background:rgba(0, 0, 0, 0.54)  url(../images/ser2.jpg);
  }   
-  @media(max-width: 768px) {
-.feet2 .root{
-    
- } 
-} 
+ 
 
 
 .feet3 .root{
     background:rgba(0, 0, 0, 0.54)  url(../images/ser3.jpg);
     }
-    @media(max-width: 768px) {
-.feet3 .root{
-    }
-}
+   
 /*end offers*/
 /*start services*/
 .our-services{
@@ -263,6 +252,7 @@ max-width: 100%;
 }
 
 .our-services .info-content .icons i{
+    text-align: center;
     float: left;
     width: 20%;
     background: #ff1756;
